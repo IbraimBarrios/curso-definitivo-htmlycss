@@ -1,0 +1,14 @@
+/* Selector por elementos */
+p {
+    color: red;
+}
+
+/* selecto de CLASS */
+.parrafo{
+    font-size: 50px;
+}
+
+/* selector de ID */
+#good{
+    color: blue;
+}
