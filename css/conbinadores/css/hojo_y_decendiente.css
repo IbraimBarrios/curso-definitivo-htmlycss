@@ -1,0 +1,4 @@
+/* child: direct child (hijo directo) */
+div > p {
+    color: red;
+}
