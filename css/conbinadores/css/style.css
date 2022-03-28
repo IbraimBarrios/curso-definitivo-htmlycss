@@ -1,0 +1,4 @@
+/* #combiner: adjacent sibling (combinador hermano cercano) */
+h2 + p {
+    color: red;
+}
