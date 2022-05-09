@@ -15,25 +15,33 @@ body{
 .container{
     border: 0.3rem solid black;
     display: flex;
+    /* align-items: stretch; */
+    /* height: 50vh; */
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
 }
 
 .box{
     width: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
     height: 10rem;
 }
 
 .box1{
     background-color: blue;
+    order: 1;
+    flex-grow: 1;
 }
 
 .box2{
     background-color: aqua;
+    flex-grow: 1;
 }
 
 .box3{
     background-color: azure;
+    order: 2;
 }
 
 .box4{
@@ -42,8 +50,10 @@ body{
 
 .box5{
     background-color: coral;
+    order: 4;
 }
 
 .box6{
     background-color: cyan;
+    order: 3;
 }
