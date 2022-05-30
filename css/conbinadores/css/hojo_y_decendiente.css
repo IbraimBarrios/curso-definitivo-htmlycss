@@ -1,0 +1,10 @@
+/* child: direct child (hijo directo) */
+/* div > p {
+    color: red;
+} */
+
+/*combiner desendent (combinador desendente)*/
+
+div p {
+    color: blue;
+}

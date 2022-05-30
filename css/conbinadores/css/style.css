@@ -1,0 +1,9 @@
+/* #combiner: adjacent sibling (combinador: hermano cercano) */
+/* h2 + p {
+    color: red;
+} */
+
+/* #combiner: General sibling (combinador: hermano general) */
+h2 ~ p {
+    color: blue;
+}

@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: purple;
+    font-family: serif;
+    margin-bottom: 10px;
+}
+
+.title{
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.nav{
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.nav li{
+    display: inline-block; /*pone orizontal la lista*/
+}
+
+.nav a{
+    color: white;
+    background-color: #12a4a4;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.nav .iper{
+    background-color: chocolate;
+}
